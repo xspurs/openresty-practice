@@ -24,7 +24,7 @@ use openresty to build APIs, and more!
 6. run nginx, redis, and test:
 
     $ sudo nginx/sbin/nginx
-    $ sudo redis-server --port 6379
+    $ sudo redis-server --bind 127.0.0.1 --port 6379
     $ curl http://127.0.0.1/api/valuebyredis
 
 
