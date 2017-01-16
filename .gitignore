@@ -1,0 +1,8 @@
+bin/*
+luajit/*
+lualib/*
+pod/*
+resty.index
+# can not word -_-!
+#nginx/*
+#!nginx/conf/nginx.conf
