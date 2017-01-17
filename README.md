@@ -11,12 +11,13 @@ use openresty to build APIs, and more!
 3. enter the directory and init git:
 
     $ sudo cd /usr/local/openresty
+
     $ sudo git init
 
 4. add remote address for git:
 
     $ sudo git remote add origin https://github.com/xitongjiagoushi/openresty-practice.git
-    
+
 5. pull it:
 
     $ sudo git pull origin master
@@ -24,7 +25,9 @@ use openresty to build APIs, and more!
 6. run nginx, redis, and test:
 
     $ sudo nginx/sbin/nginx
+
     $ sudo redis-server --bind 127.0.0.1 --port 6379
+
     $ curl http://127.0.0.1/api/valuebyredis
 
 
