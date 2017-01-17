@@ -11,6 +11,7 @@ use openresty to build APIs, and more!
 3. enter the directory and init git:
 
     $ sudo cd /usr/local/openresty
+
     $ sudo git init
 
 4. add remote address for git:
