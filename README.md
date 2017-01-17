@@ -4,7 +4,7 @@ use openresty to build APIs, and more!
 
 ## Usage
 
-1. [download openresty](https://openresty.org/en/download.html) according to your os.
+1. [download openresty](https://openresty.org/en/download.html), this repo is oriented to the `*nix` operating system, notice that the directory hierarchy is different in Windows operating system.
 
 2. install openresty, we assume it is installed at `/usr/local/openresty`.
 
